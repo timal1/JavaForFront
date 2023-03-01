@@ -16,7 +16,7 @@ public class LessonOne {
         taskTwoCounter();
 
         //Task 3: Реализовать простой калькулятор (+ - / *)
-        taskThreeSumNumbersAndFactorial(sc);
+        taskThreeCalculator(sc);
 
         sc.close();
     }
@@ -65,7 +65,7 @@ public class LessonOne {
     }
 
 
-    public static void taskThreeSumNumbersAndFactorial(Scanner sc) {
+    public static void taskThreeCalculator(Scanner sc) {
         DecimalFormat df = new DecimalFormat("#.####");
         int flag = 0;
         while (flag == 0) {
